@@ -13,13 +13,13 @@ const vehiculoSchema=new Schema({
         require:true,
         trim:true,
     },
-    anio_fabricacion:{
+    aniofabricacion:{
         type:Number,
         require:true,
         trim:true,  
     },
     placa:{
-        type:Number,
+        type:String,
         require:true,
         trim:true, 
         unique:true

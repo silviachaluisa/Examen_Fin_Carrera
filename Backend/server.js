@@ -5,6 +5,7 @@ import cors from 'cors';
 //Importacion de la variable router usuario
 import routerUsuarios from './src/routers/usuario_routes.js'
 import routerClientes from './src/routers/cliente_routes.js'
+import routerVehiculos from './src/routers/vehiculo_routes.js';
 
 //Inicializaciones
 const app=express()
@@ -23,6 +24,7 @@ app.get('/' ,(req,res)=>{
 })
 app.use('/api',routerUsuarios)
 app.use('/api',routerClientes)
+app.use('/api',routerVehiculos)
 
 
 //Manejo de una ruta que no sea encontrada
