@@ -29,7 +29,7 @@ const registro= async (req,res)=>{
     const nuevoUsuario = new Usuario(req.body)  
     nuevoUsuario.password = await nuevoUsuario.encrypPassword(password) // Antes de guardar un nuevo usuario en la base de datos, su contraseña es convertida en un en caractareses encriptados
     await nuevoUsuario.save()
-    res.status(200).json({res:'Registrarse'})
+    res.status(200).json({res:'Usuario Registrado con Exito'})
 }
 
 const detalleUsuario = async (req,res)=>{

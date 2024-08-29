@@ -1,7 +1,7 @@
-import mongoose, { Schema,model } from "mongoose";
+import{ Schema,model } from "mongoose";
 import bcrypt from "bcryptjs"
 
-const vehiculoSchema=new Schema({
+const vehiculoSchema=new Schema({ 
 
     marca:{
         type:String,
