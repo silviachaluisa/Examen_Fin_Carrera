@@ -54,4 +54,4 @@ const vehiculoSchema=new Schema({
     
 })
 
-export default model('model',vehiculoSchema)
+export default model('Vehiculo',vehiculoSchema)
