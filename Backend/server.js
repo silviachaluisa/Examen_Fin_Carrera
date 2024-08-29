@@ -6,6 +6,7 @@ import cors from 'cors';
 import routerUsuarios from './src/routers/usuario_routes.js'
 import routerClientes from './src/routers/cliente_routes.js'
 import routerVehiculos from './src/routers/vehiculo_routes.js';
+import routerReservas from './src/routers/reserva_routes.js'
 
 //Inicializaciones
 const app=express()
@@ -25,6 +26,7 @@ app.get('/' ,(req,res)=>{
 app.use('/api',routerUsuarios)
 app.use('/api',routerClientes)
 app.use('/api',routerVehiculos)
+app.use('/api',routerReservas)
 
 
 //Manejo de una ruta que no sea encontrada

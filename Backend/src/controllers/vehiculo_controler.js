@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Vehiculo from "../models/Vehiculos.js";
+import Vehiculo from "../models/Vehiculo.js";
 
 const regitrarVehiculo= async(req,res)=>{
     const {placa}=req.body //Se realiza una desestructuracion para extraer el valor del campo "placa" del cuerpo de la solicitud, este valor es necesario para veriricar si el vehiculo ya esta registrado en la base de datos
