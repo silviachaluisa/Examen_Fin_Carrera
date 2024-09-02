@@ -117,6 +117,12 @@ https://jmeter.apache.org/download_jmeter.cgi
 
 ![image](https://github.com/user-attachments/assets/ef7323d7-5726-4a1a-937b-61271a08ae01)
 
+## DESPLIEGUE
+
+![image](https://github.com/user-attachments/assets/a9ef122a-4c08-463a-9a02-7100c1b2f09b)
+
+![image](https://github.com/user-attachments/assets/8bdf70df-bd2b-4f86-98fd-700831a0744a)
+
 
 
 
