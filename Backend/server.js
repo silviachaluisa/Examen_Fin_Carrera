@@ -13,7 +13,7 @@ const app=express()
 dotenv.config()
 
 //Configuraciones
-app.set('port' ,process.env.port || 300)
+app.set('port' ,process.env.PORT || 3000)
 app.use(cors())
 
 //Middlewares
