@@ -5,7 +5,8 @@ NOTION: https://byronloarte.notion.site/API-RESTFul-Veterinary-management-96cdc8
 2) Instalar las dependencias: npm i express bcryptjs mongoose dotenv nodemailer jsonwebtoken cors
 3) Crear los directorios con mdkdir src, luego cd src,"config","controllers",”helpers”,”middlewares”,”models”,”routers” | %{New-Item -Name “$_” -ItemType “Directory”}
 4) Fuera del directorio src, crear New-Item -ItemType File database.js, index.js, server.js, .env, .env.example, .gitignore
-5) 
+   ![image](https://github.com/user-attachments/assets/61ccf1f7-6489-42e4-86fa-9d5dd768c018)
+
 
 
 ## EXTRAS:
@@ -83,3 +84,10 @@ ID:66d00c3b5f4b49989c091c18
   "kilometraje":"487567",
   "descripcion":"Cambio de aceite"
 }
+
+## PARA PRUEBAS UNITARIAS
+![image](https://github.com/user-attachments/assets/94c02aff-d1ca-4a0d-84e3-a3c6226b0b74)
+
+![image](https://github.com/user-attachments/assets/92557e67-9ac9-463f-9ee6-7066a84ae856)
+
+
