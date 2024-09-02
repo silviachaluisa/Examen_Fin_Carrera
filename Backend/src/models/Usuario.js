@@ -2,18 +2,9 @@ import {Schema, model} from 'mongoose'
 import bcrypt from 'bcryptjs'
 
 const usuarioSchema = new Schema ({
-    nombre:{
-        type:String,
-        required:true,
-        trim:true
-    },
-    apellido:{
-        type:String,
-        required:true,
-        trim:true
-    },
+
    
-    email:{
+    email:{ 
         type:String,
         required:true,
         trim:true,
@@ -22,7 +13,8 @@ const usuarioSchema = new Schema ({
     
     password:{
         type:String,
-        default:true
+        default:true,
+        unique:true
     }
 },{
     timestamps:true

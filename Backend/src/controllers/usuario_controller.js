@@ -6,13 +6,14 @@ const login = async (req,res)=>{
     const{email,password} = req.body
     if (Object.values(req.body).includes("")) return res.status(400).json({msg:"Lo sentimos, debes llenar todos los campos"})
     const usuarioBDD = await Usuario.findOne({email}).select("-status -__v -token -updatedAt -createdAt")
-    if(!usuarioBDD) return res.status(400).json({msg:"Usuario ya se encuentra registrado"} )
+    if(!usuarioBDD) return res.status(400).json({msg:"Usuario no se encuentra en la base de datos"} )
     const verificarPassword = await usuarioBDD.matchPassword(password)
     if(!verificarPassword) return res.status(404).json({msg:"Contraseña Incorrecta"})
     //Generar Token    
     const token = generarJWT(usuarioBDD._id,"Usuario")    
     const{nombre,apellido,_id}=usuarioBDD
     res.status(200).json({
+        msg:"Usuario logeado correctamente",
         token,
         nombre,
         apellido,
