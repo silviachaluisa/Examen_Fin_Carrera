@@ -12,29 +12,14 @@ const usuarioSchema = new Schema ({
         required:true,
         trim:true
     },
-    direccion:{
-        type:String,
-        trim:true,
-        default:null
-
-    },
+   
     email:{
         type:String,
         required:true,
         trim:true,
         unique:true
     },
-    telefono:{
-        type:Number,
-        trim:true,
-        default:null
-    },
-    email:{
-        type:String,
-        require:true,
-        trim:true,
-        unique:true
-    },
+    
     password:{
         type:String,
         default:true

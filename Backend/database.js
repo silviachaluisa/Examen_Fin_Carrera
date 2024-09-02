@@ -19,5 +19,28 @@ const connection = async()=>{
     }
 }
 
+const desconnection = async ()=>{
+    try{
+        //Cierra la coneccion
+        await mongoose.disconnect();
+        console.log("La base de datos ha sido desconectada");
+    }catch(error){
+        //Capturar Error en la desconeccion
+        console.log(error)
+
+    }
+
+};
+
+
 //Exportar la función
-export default  connection;
+export {
+    connection,
+    desconnection   
+} 
+
+  
+
+
+ 
+    
