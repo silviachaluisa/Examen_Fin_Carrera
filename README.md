@@ -90,4 +90,35 @@ ID:66d00c3b5f4b49989c091c18
 
 ![image](https://github.com/user-attachments/assets/92557e67-9ac9-463f-9ee6-7066a84ae856)
 
+Instalar: npm install --save-dev @babel/core @babel/preset-env @babel/register babel-jest y instalar: npm i jest -D y npm i supertest
+
+![image](https://github.com/user-attachments/assets/c32ab989-8835-4eb7-816a-7c3212b805e3)
+
+## PRUEBAS DE RENDIMIENTO
+https://jmeter.apache.org/
+https://jmeter.apache.org/download_jmeter.cgi
+
+
+![image](https://github.com/user-attachments/assets/1d9b4c8b-7e04-472c-95ee-1769d3cdff80)
+![image](https://github.com/user-attachments/assets/104f3bd7-bfbb-473b-b775-5eea67f12568)
+
+![image](https://github.com/user-attachments/assets/91e64ad9-8ab9-4203-8597-9ae997c05f54)
+
+![image](https://github.com/user-attachments/assets/23cd3c52-bc73-4fc4-8880-8dd6d196551b)
+
+![image](https://github.com/user-attachments/assets/f6223ba7-087b-4202-a212-37082fbbe311)
+![image](https://github.com/user-attachments/assets/7421de5f-3c64-46ab-b6db-38bc4bef6d8d)
+![image](https://github.com/user-attachments/assets/da930159-db24-4aa9-b20c-b19431d1d619)
+
+![image](https://github.com/user-attachments/assets/0129f13f-d989-4160-9aff-37dabfdc89ba)
+
+
+![image](https://github.com/user-attachments/assets/e07620f3-f0ab-4505-b0f2-8026f0599802)
+
+![image](https://github.com/user-attachments/assets/ef7323d7-5726-4a1a-937b-61271a08ae01)
+
+
+
+
+
 
